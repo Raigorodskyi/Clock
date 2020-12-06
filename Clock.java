@@ -7,16 +7,12 @@ package student;
 
 /**
  *
- * @author andre
+ * @author 2003i
  */
-public class Clock {   //15:15
+public class Clock {  
     private int hour;
     private int minute;
     private int second;
-    
-    
-    
-    // 00:00:00   01:30:03
 
     public Clock() {
         this.hour = 0;
@@ -40,7 +36,6 @@ public class Clock {   //15:15
      * To increase the hour by one
      */
     public void increaseHour() {
-//        hour = (hour + 1) % 24;
         hour++;
         if (hour == 24)
             hour = 0;
